@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+* {
+box-sizing: border-box;
+cursor: url(imgs/rat_cursor.png) , auto;
+font-style: 'Roboto Mono', monospace;
+color: #5B461A;
+background-color: #F4F0F1;
+}
+
+.headerr {
+display: flex;
+justify-content: space-between ;
+align-items: center;
+
+}
+ .iconn {
+    height: 50px;
+    width: 50px;
+    margin : 5px 20px;
+    order: 3;
+}
+.navbar {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    border-style: none ;
+
+    border-width: 1px;
+    padding: 8px 16px;
+    margin : 5px 5px;
+}
+button:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5B461A;
+    padding: 8px 16px;
+    background-color: #F4EBAB;
+}
+.signup {
+    order: 1;
+}
+.listt {
+    order: 2;
+}
+.gg{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.defaultRat{
+    height:400px;
+    width: 400px;
+    margin-left: 50px;
+}
+.paragraphs{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+}
+.expbtn{
+    transition: all 0.3s ease 0s;
+    border-style: solid ;
+    border-color: #F4EBAB;
+    border-width: 1px;
+    padding: 8px 16px;
+    margin-left: 40px;
+
+}
+.btnss{
+
+}
